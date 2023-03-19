@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+
+
+
+.ali-google-font-header-p {
+    font-family: 'Edu QLD Beginner', cursive;
+    
+    text-align: justify;
+}
+
+
+.ali-about-me-googlefonte {
+    font-family: 'Tangerine', cursive;
+}
+
+
+/* start gallry */
+.ali-pictures {
+    height: 300px;
+    width: 100%;
+    object-fit: fill;
+    /* border: 3px solid whitesmoke; */
+    padding: 7px;
+    filter: grayscale();
+    transition: all 0.2s linear;
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #020202;
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+    margin-top: 6px;
+    /* margin-bottom: 16px; */
+    /* resize: vertical; */
+  }
+  
+
+  .ali-input:focus {
+    outline: none;
+  }
